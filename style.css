@@ -1,0 +1,291 @@
+body{
+    padding: 0;
+    margin: 25px;
+    font-family: 'raleway',Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+header img{
+    height: 50px;
+}
+
+header a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}
+
+header .inscrire{
+    font-weight: bolder;
+    color:  #0065FC;
+}
+
+a:hover{
+    border-top:  1px solid  #0065FC;
+    padding-top: 20px;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+/* section1 */
+.section1 p{
+    display: inline;
+    font-weight: lighter;
+}
+
+.section1 i{
+    border-radius: 50%;
+    background-color:#DEEBFF;
+    margin-right: 0px;
+}
+
+.section1 .recherche i{
+    color: black;
+    margin: -5px;
+    border-radius: 30% 0 0 30%;
+}
+
+.section1 .recherche {
+    height: 43px;
+    width: 21%;
+    margin: 1% 0% 1% 0%;
+    border-radius: 0% 25% 25% 0;
+}
+
+.section1 .recherche button{
+    border-radius: 0% 22% 22% 0;
+    border: none; 
+    display: inline;
+    height: 43px;
+    width: 100px;
+    margin: -5px;
+    padding: 0px;
+    background-color: #0065FC;
+    color: #ffffff;
+}
+
+.section1 input{
+    height: 45px;
+    margin-right: -10px;
+}
+
+.section1 .placeholder{
+    font-weight: bold;
+}
+
+.section1 .filtre button{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.section1 .filtre button{
+    border-radius: 30%;
+    margin: 15px;
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+    border:solid rgb(234, 236, 242) 3px;
+    border-left: none;
+    background: none;
+}
+
+.section1 .filtre button .fa-male{
+    width: 15px;
+}
+
+.section1 i{
+    color: rgb(26, 71, 228);
+    padding: 10px;
+}
+
+.section1 button .fa-male .fa-info{
+    width: 15px;
+}
+
+.section1 .fa-info{
+    background:none;
+    border: black 20px;
+    border-radius: 50%;
+}
+
+/* section2 */
+
+/* article */
+
+.articles{
+    display: flex;
+}
+
+.articles h2{
+    margin: 25px;
+}
+
+.articles h3{
+    font-weight: bolder;
+}
+
+.hebergement{
+    width: 70%;
+    background-color: #F2F2F2;
+    border-radius: 5%;
+    padding-left: 20px;
+    margin-right: 2%;
+}
+
+.hebergement .miniature{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement figure{
+    display: flex;
+    border: solid#F2F2F2 0.5px;
+    border-radius: 8%;
+    width: 27%;
+    margin: 2%;
+    flex-direction: column;
+    background-color: #ffffff ;
+    padding: 10px;
+    box-shadow: grey 5px 5px 15px;
+}
+.hebergement img{
+    height: 16vh;
+    border-radius: 8% 8% 0% 0%;
+}
+
+.hebergement i{
+    color: rgb(26, 71, 228);
+}
+
+.hebergement span{
+    font-weight: bold;
+}
+
+.hebergement .grey{
+    color: rgb(234, 236, 242);
+}
+
+.section2 .hebergement figure{
+    line-height: 10px;
+}
+
+/* aside */
+
+.populaire{
+    width: 30%;
+    height: auto;
+    background:  #F2F2F2;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.populaire img{
+    width: 50%;
+    border-radius: 15% 0% 0% 15%;
+    margin-right: 15px;
+}
+
+.populaire figure{
+    border: solid 1px rgb(200, 200, 232);
+    border-radius: 10%;
+    border-left: none;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 25%;
+    padding: 5px;
+    box-shadow: grey 5px 5px 15px;
+}
+
+.populaire figure p{
+    padding: 0;
+}
+
+.populaire .fas{
+    margin-top: 15%;
+}
+
+.populaire .grey{
+    color: rgb(214, 218, 232);
+}
+
+.populaire i{
+    color: rgb(26, 71, 228);
+}
+
+.section2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* section3 */
+
+.lieux{
+    margin-bottom: 10%;
+}
+
+.lieux .activites{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.lieux p{
+    font-weight: bolder;
+}
+
+.lieux .activites div{
+    width: 25%;
+}
+
+.lieux img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7% 7% 0 0;
+}
+
+.lieux figcaption{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+.lieux figure{
+    border: solid #DADBEF 0.7px;
+    border-radius: 7%;
+    border-top: none;
+    box-shadow: grey 5px 5px;
+}
+
+.lieux .colonne img{
+    height: 200px;
+}
+
+.lieux .solo img{
+    height: 487px;
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+footer .fbloc{
+    margin: 5% 10%;
+}
+
+footer h3{
+    font-weight: bolder;
+    font-size: 20px;
+}
